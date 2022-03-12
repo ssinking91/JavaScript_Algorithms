@@ -1,6 +1,6 @@
 # JavaScript_Algorithms🔥
 
-### 👉 해설
+## 👉 해설⭐⭐⭐⭐⭐
 - [\[1. 세 수 중 최솟값\]](https://blog.naver.com/tlsgkdals71/222653941363)
 - [\[2. 삼각형 판별하기\]](https://blog.naver.com/tlsgkdals71/222653948128)
 - [\[3. 연필 개수\]](https://blog.naver.com/tlsgkdals71/222654064793)
@@ -26,4 +26,5 @@
 - [\[23. 격자판 최대합\]](https://blog.naver.com/tlsgkdals71/222668079694)⭐
 - [\[24. 봉우리\]](https://blog.naver.com/tlsgkdals71/222669361685)⭐
 - [\[25. 회문문자열\]](https://blog.naver.com/tlsgkdals71/222669899059)
+- [\[26. 유효한 팰린드롬\]](https://blog.naver.com/tlsgkdals71/222670684584)⭐
 
