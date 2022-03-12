@@ -1,0 +1,22 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>출력결과</title>
+</head>
+
+<body>
+    <script>
+        function solution(s) {
+            let result = s.map((el) => Number(el.length)) // [7, 4, 7, 9, 4]
+            let maxNumber = Math.max(...result) // 9
+            let idx = result.indexOf(maxNumber) // 3
+
+            return s[idx]; // beautiful
+        }
+        let str = ["teacher", "time", "student", "beautiful", "good"];
+        console.log(solution(str));
+    </script>
+</body>
+
+</html>

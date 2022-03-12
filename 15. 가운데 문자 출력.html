@@ -1,0 +1,26 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>출력결과</title>
+</head>
+
+<body>
+    <script>
+        function solution(s) {
+            let answer;
+            let idx = 0
+            if (s.length % 2 === 0) {
+                idx = parseInt(s.length / 2)
+                answer = (s[idx - 1] + s[idx])
+            } else {
+                idx = parseInt(s.length / 2)
+                answer = s[idx]
+            }
+            return answer;
+        }
+        console.log(solution("study"));
+    </script>
+</body>
+
+</html>
