@@ -27,4 +27,5 @@
 - [\[24. 봉우리\]](https://blog.naver.com/tlsgkdals71/222669361685)⭐
 - [\[25. 회문문자열\]](https://blog.naver.com/tlsgkdals71/222669899059)
 - [\[26. 유효한 팰린드롬\]](https://blog.naver.com/tlsgkdals71/222670684584)⭐
+- [\[27. 숫자만 추출\]](https://blog.naver.com/tlsgkdals71/222671347981)⭐
 
