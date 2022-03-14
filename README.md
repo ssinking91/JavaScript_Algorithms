@@ -1,6 +1,7 @@
 # JavaScript_Algorithms🔥
 
 ## 👉 해설⭐⭐⭐⭐⭐
+
 - [\[1. 세 수 중 최솟값\]](https://blog.naver.com/tlsgkdals71/222653941363)
 - [\[2. 삼각형 판별하기\]](https://blog.naver.com/tlsgkdals71/222653948128)
 - [\[3. 연필 개수\]](https://blog.naver.com/tlsgkdals71/222654064793)
@@ -28,4 +29,4 @@
 - [\[25. 회문문자열\]](https://blog.naver.com/tlsgkdals71/222669899059)
 - [\[26. 유효한 팰린드롬\]](https://blog.naver.com/tlsgkdals71/222670684584)⭐
 - [\[27. 숫자만 추출\]](https://blog.naver.com/tlsgkdals71/222671347981)
-
+- [\[28. 가장 짧은 문자거리\]](https://blog.naver.com/tlsgkdals71/222672815649)⭐

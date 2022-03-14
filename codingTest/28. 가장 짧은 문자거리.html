@@ -9,8 +9,7 @@
     <script>
         function solution(s, t) {
             let answer = [];
-            let arr = s.split("e")
-            console.log(arr)
+            let arr = s.split(t)
             arr.forEach(el => {
                 let arrOne = []; newArrOne = [];
                 if (el.length === 1) {
@@ -26,13 +25,13 @@
                     for (let i = 1; i <= el.length / 2; i++) {
                         arrOne.push(i);
                     }
-                    newArrOne = [...arrOne, el[el.length / 2 + 0.5], ...arrOne.reverse()].join("")
+                    newArrOne = [...arrOne, el.length / 2 + 0.5, ...arrOne.reverse()].join("")
                     answer.push(newArrOne)
                 } else {
                     answer.push("")
                 }
             });
-            return answer;
+            return answer.join(0);
         }
 
         let str = "teachermode";
