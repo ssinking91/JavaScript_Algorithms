@@ -1,0 +1,37 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>출력결과</title>
+</head>
+
+<body>
+    <script>
+        function solution(n, arr) {
+            let answer = "0"; max = 0; sum = 0;
+
+            arr.map((el, idx) => {
+                el = el + ""             // 문자로 변환
+                for (let x of el) {
+                    sum += parseInt(x)   // 숫자로 변환 후 el 합
+                };
+
+                // 자릿수의 합이 같은 경우 원래 숫자가 큰 숫자를 선택
+                sum >= max && parseInt(el) > parseInt(answer)
+                    ? (
+                        max = sum,
+                        answer = el,
+                        sum = 0
+                    )
+                    : sum = 0;
+            });
+
+            return answer;
+        }
+
+        let arr = [128, 460, 603, 40, 521, 137, 123];
+        console.log(solution(7, arr));
+    </script>
+</body>
+
+</html>
