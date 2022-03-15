@@ -30,3 +30,4 @@
 - [\[26. 유효한 팰린드롬\]](https://blog.naver.com/tlsgkdals71/222670684584)⭐
 - [\[27. 숫자만 추출\]](https://blog.naver.com/tlsgkdals71/222671347981)
 - [\[28. 가장 짧은 문자거리\]](https://blog.naver.com/tlsgkdals71/222672815649)⭐
+- [\[29. 문자열 압축\]](https://blog.naver.com/tlsgkdals71/222673486996)⭐
