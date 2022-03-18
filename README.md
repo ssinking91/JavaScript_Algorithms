@@ -33,3 +33,4 @@
 - [\[29. 문자열 압축\]](https://blog.naver.com/tlsgkdals71/222673486996)⭐
 - [\[30. 자릿수의 합\]](https://blog.naver.com/tlsgkdals71/222673896777)
 - [\[31. 뒤집은 소수\]](https://blog.naver.com/tlsgkdals71/222675583280)
+- [\[32. 멘토링\]](https://blog.naver.com/tlsgkdals71/222676457427)⭐⭐
