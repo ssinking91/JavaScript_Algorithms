@@ -1,0 +1,34 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>출력결과</title>
+</head>
+
+<body>
+    <script>
+        function solution(m, product) {
+            let answer = 0;  // 최대 개수 
+            let n = product.length;	 //학생수
+            product.sort((a, b) => (a[0] + a[1]) - (b[0] + b[1]));  // 낮은 가격부터 정렬
+            for (let i = 0; i < n; i++) {  // i = 할인 받는 상품, j = 할인 받는 상품 외 상품
+                let money = m - (product[i][0] / 2 + product[i][1]);  // 할인 받는 상품을 미리 예산에서 빼줌 
+                let cnt = 1; // 개수
+                for (let j = 0; j < n; j++) { // i = 할인 받는 상품, j = 할인 받는 상품 외 상품
+                    if (j !== i && (product[j][0] + product[j][1]) > money) break;
+                    if (j !== i && (product[j][0] + product[j][1]) <= money) {
+                        money -= (product[j][0] + product[j][1]);
+                        cnt++;
+                    }
+                }
+                answer = Math.max(answer, cnt);
+            }
+            return answer;
+        }
+
+        let arr = [[6, 6], [2, 2], [4, 3], [4, 5], [10, 3]];
+        console.log(solution(28, arr));	//예산, 상품정보
+    </script>
+</body>
+
+</html>
