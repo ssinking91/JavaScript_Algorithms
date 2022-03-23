@@ -37,3 +37,4 @@
 - [\[33. 졸업선물\]](https://blog.naver.com/tlsgkdals71/222678874621)⭐⭐
 - [\[34. K번째 큰 수\]](https://blog.naver.com/tlsgkdals71/222679384187)
 - [\[35. 두 배열 합치기\]](https://blog.naver.com/tlsgkdals71/222680167936)
+- [\[36. 공통원소구하기\]](https://blog.naver.com/tlsgkdals71/222680710634)
