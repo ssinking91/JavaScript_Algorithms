@@ -1,0 +1,31 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>출력결과</title>
+</head>
+
+<body>
+    <script>
+        function solution(m, arr) {
+            let answer = 0; sum = 0; lt = 0; cnt = 0;
+            for (let rt = 0; rt < arr.length; rt++) {
+                if (m >= arr[rt]) answer++;
+                sum += arr[rt];
+                cnt++;
+                if (cnt >= 2 && m >= sum) answer++;
+                while (sum >= m) {
+                    sum -= arr[lt++];
+                    cnt--;
+                    if (cnt >= 2 && m >= sum) answer++;
+                }
+            }
+            return answer;
+        }
+
+        let a = [1, 3, 1, 2, 3];
+        console.log(solution(5, a));
+    </script>
+</body>
+
+</html>

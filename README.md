@@ -39,3 +39,4 @@
 - [\[35. 두 배열 합치기\]](https://blog.naver.com/tlsgkdals71/222680167936)
 - [\[36. 공통원소구하기\]](https://blog.naver.com/tlsgkdals71/222680710634)
 - [\[37. 연속부분수열1\]](https://blog.naver.com/tlsgkdals71/222685467080)
+- [\[38. 연속부분수열2\]](https://blog.naver.com/tlsgkdals71/222686274415)
