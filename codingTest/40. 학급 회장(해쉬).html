@@ -1,0 +1,32 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>출력결과</title>
+</head>
+
+<body>
+    <script>
+        function solution(s) {
+            let answer;
+            let sH = new Map();
+            for (let x of s) {
+                if (sH.has(x)) sH.set(x, sH.get(x) + 1); // set(key, value) 
+                else sH.set(x, 1);                       // set(key, value) 
+            }
+            let max = Number.MIN_SAFE_INTEGER;
+            for (let [key, val] of sH) { // for-of 로 map 순회하기 let [key, value] of sH
+                if (val > max) {
+                    max = val;
+                    answer = key;
+                }
+            }
+            return answer;
+        }
+
+        let str = "BACBACCACCBDEDE";
+        console.log(solution(str));
+    </script>
+</body>
+
+</html>
