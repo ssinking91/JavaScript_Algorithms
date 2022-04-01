@@ -61,3 +61,4 @@
 - [\[39. 최대 매출\]](https://blog.naver.com/tlsgkdals71/222687537585) (Sliding Window)
 - [\[40. 학급 회장(해쉬)\]](https://blog.naver.com/tlsgkdals71/222688113819) (Hash Map)
 - [\[41. 아나그램(해쉬)\]](https://blog.naver.com/tlsgkdals71/222688535297) (Hash Map)
+- [\[42. 모든 아나그램 찾기(해쉬, 투포인터, 슬라이딩 윈도우)\]](https://blog.naver.com/tlsgkdals71/222689094707) (Hash & Sliding Window && Two Pointers Algorithm)

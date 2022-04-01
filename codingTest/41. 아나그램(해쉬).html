@@ -15,7 +15,8 @@
                 else sH.set(x, 1);                       // set(key, value) 
             }
             for (let x of str2) {
-                if (!sH.has(x) || sH.get(x) == 0) return "NO"; // sH가 x(key)를 가지고 있지 않거나, x(key)의 value가 0이라면
+                // str1 은 있는데 str2 는 없을때
+                if (!sH.has(x) || sH.get(x) == 0) return "NO"; // sH가 x(key)를 가지고 있지 않거나, x(key)의 value가 없다면
                 sH.set(x, sH.get(x) - 1); // set(key, value) 로 상쇄시켜 바로위 if문 조건에서(key)의 value가 0이라면
 
             }
